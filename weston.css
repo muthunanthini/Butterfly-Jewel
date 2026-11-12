@@ -1,0 +1,129 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 40px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #b8860b;
+  object-fit: cover;
+}
+
+.logo-text {
+  color: #b8860b;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.right-section .back-home {
+  text-decoration: none;
+  color: #b8860b;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.right-section .back-home:hover {
+  color: #daa520;
+}
+
+/* Product section */
+.product-list {
+  text-align: center;
+  padding: 40px;
+}
+
+.product-list h2 {
+  color: #b8860b;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.product-card {
+  background-color: white;
+  width: 250px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.product-card h3 {
+  color: #b8860b;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 18px;
+  color: #333;
+}
+
+.offer {
+  color: #e60000;
+  font-weight: bold;
+}
+
+.rating {
+  color: #ff9900;
+}
+
+.like-btn, .buy-btn {
+  border: none;
+  padding: 10px 15px;
+  margin: 8px 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('file:///C:/Users/DELL/Downloads/WhatsApp%20Image%202025-10-12%20at%207.24.48%20AM.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.like-btn {
+  background-color: #ffb6c1;
+}
+
+.like-btn.liked {
+  background-color: #ff4081;
+  color: white;
+}
+
+.buy-btn {
+  background-color: #b8860b;
+  color: white;
+}
+
+.buy-btn:hover {
+  background-color: #daa520;
+}
